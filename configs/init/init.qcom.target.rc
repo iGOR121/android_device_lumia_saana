@@ -1,0 +1,13 @@
+# EvenlyHYWang add for Sensor
+import /vendor/etc/init/hw/init.qcom.sensor.rc
+
+on early-init
+        setprop ro.bsp.device ${ro.boot.device}
+
+#FIH,Michael,20170323  Add for imei backup start
+on property:init.svc.ril-daemon=running
+    write /proc/AllHWList/imei ${persist.radio.imei}
+
+on property:init.svc.ril-daemon2=running
+    write /proc/AllHWList/imei2 ${persist.radio.imei2}
+#FIH,Michael,20170323  Add for imei backup end

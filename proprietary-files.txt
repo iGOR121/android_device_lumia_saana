@@ -1,0 +1,311 @@
+# ADSP
+vendor/bin/adsprpcd
+vendor/lib/libadsprpc.so
+vendor/lib/libadsp_default_listener.so
+vendor/lib/libfastcvadsp_stub.so
+vendor/lib/libfastcvopt.so
+vendor/lib/libmdsprpc.so
+vendor/lib/libsdsprpc.so
+
+# ADSP modules
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+
+# ANT+
+-system/lib/libantradio.so
+vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so
+system/lib/com.qualcomm.qti.ant@1.0.so
+vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
+
+# Audio
+vendor/bin/audioflacapp
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
+vendor/lib/libaudioalsa.so
+-vendor/lib/libaudio_log_utils.so
+vendor/lib/libdrc.so
+vendor/lib/libqtigef.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libtinycompress_vendor.so
+vendor/lib/soundfx/libaudiopreprocessing.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+
+# Audio (Hardware)
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.primary.msm8909.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib/hw/audio.usb.default.so
+vendor/lib/soundfx/libqcompostprocbundle.so
+vendor/lib/soundfx/libqcomvisualizer.so
+vendor/lib/soundfx/libqcomvoiceprocessing.so
+
+# Bluetooth
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib/libbtnv.so
+vendor/lib/libbt-hidlclient.so
+
+# DRM and SEE
+vendor/bin/qseecomd
+vendor/lib/libdiag.so
+vendor/lib/libdrmfs.so
+vendor/lib/libdrmtime.so
+vendor/lib/libGPreqcancel.so
+vendor/lib/libGPreqcancel_svc.so
+vendor/lib/libqisl.so
+vendor/lib/libQSEEComAPI.so
+vendor/lib/librpmb.so
+vendor/lib/libsecureui.so
+vendor/lib/libsecureui_svcsock.so
+vendor/lib/libSecureUILib.so
+vendor/lib/libssd.so
+vendor/lib/libStDrvInt.so
+
+# DRM (Qteeconnector)
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
+vendor/lib/libQTEEConnector_vendor.so
+
+# ESE-Powermanager
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
+vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
+vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so
+system/lib/vendor.qti.esepowermanager@1.0.so
+
+# FM
+system/lib/fm_helium.so
+system/lib/libfm-hci.so
+vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
+system/lib/vendor.qti.hardware.fm@1.0.so
+vendor/bin/fm_qsoc_patches
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
+
+# Firmware
+vendor/firmware/a300_pm4.fw
+vendor/firmware/a420_pm4.fw
+vendor/firmware/a530v1_pfp.fw
+vendor/firmware/a530v3_seq.fw2
+vendor/firmware/a225_pfp.fw
+vendor/firmware/a330_pfp.fw
+vendor/firmware/a530_gpmu.fw2
+vendor/firmware/a530v1_pm4.fw
+vendor/firmware/a540_gpmu.fw2
+vendor/firmware/a225_pm4.fw
+vendor/firmware/a330_pm4.fw
+vendor/firmware/a530_pfp.fw
+vendor/firmware/a530v2_seq.fw2
+vendor/firmware/leia_pfp_470.fw
+vendor/firmware/a300_pfp.fw
+vendor/firmware/a420_pfp.fw
+vendor/firmware/a530_pm4.fw
+vendor/firmware/a530v3_gpmu.fw2
+vendor/firmware/leia_pm4_470.fw
+
+# Gatekeeper
+# vendor/lib/hw/gatekeeper.msm8909.so
+# dropped - unlikely to work
+
+# Keystore
+# vendor/lib/hw/keystore.msm8909.so
+# dropped - unlikely to work
+
+# GNSS
+vendor/bin/hw/android.hardware.gnss@1.0-service-qti
+vendor/bin/loc_launcher
+vendor/bin/xtra-daemon
+vendor/etc/init/android.hardware.gnss@1.0-service-qti.rc
+vendor/lib/hw/android.hardware.gnss@1.0-impl-qti.so
+vendor/lib/libgeofence.so
+vendor/lib/libgnss.so
+vendor/lib/libgnsspps.so
+vendor/lib/libgps.utils.so
+vendor/lib/libizat_core.so
+vendor/lib/liblbs_core.so
+vendor/lib/libloc_api_v02.so
+vendor/lib/libloc_core.so
+vendor/lib/liblocation_api.so
+
+# Graphics
+vendor/lib/egl/eglsubAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/libC2D2.so
+vendor/lib/libCB.so
+vendor/lib/libOpenCL.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libgsl.so
+vendor/lib/libhdr_tm.so
+vendor/lib/libllvm-qcom.so
+vendor/lib/libpvr.so
+vendor/lib/librs_adreno.so
+
+# Graphics (SDM)
+vendor/lib/libsdm-color.so
+-vendor/lib/libsdm-disp-vndapis.so
+vendor/lib/libsdmextension.so
+vendor/lib/libtinyxml2_1.so
+
+# Latency
+system/lib/vendor.qti.hardware.data.latency@1.0.so
+vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so
+
+# Media
+vendor/lib/libAlacSwDec.so
+vendor/lib/libApeSwDec.so
+vendor/lib/libFlacSwDec.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxAlacDecSw.so
+vendor/lib/libOmxApeDecSw.so
+vendor/lib/libOmxDsdDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libOmxVpp.so
+vendor/lib/libdsd2pcm.so
+vendor/lib/libmm-color-convertor.so
+-vendor/lib/libMpeg4SwEncoder.so
+#vendor/lib/libOmxSwVencMpeg4.so
+
+# Peripheral
+vendor/bin/pm-proxy
+vendor/bin/pm-service
+vendor/lib/libperipheral_client.so
+
+# Perf
+vendor/etc/perf/perfboostsconfig.xml
+vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
+vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
+vendor/lib/libperfgluelayer.so
+vendor/lib/libqti-perfd-client.so
+vendor/lib/libqti-perfd.so
+vendor/lib/libqti-util.so
+
+# QDutils
+vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so 
+system/lib/vendor.qti.hardware.qdutils_disp@1.0.so
+
+# QMI
+system/etc/permissions/qti_permissions.xml
+vendor/bin/irsc_util
+vendor/lib/libdiag.so
+vendor/lib/libdsutils.so
+vendor/lib/libidl.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqdi.so
+vendor/lib/libqdp.so
+vendor/lib/libqmi.so
+-vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_helper.so
+vendor/lib/libqmi_client_qmux.so
+-vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_csvt_srvc.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
+
+# Radio (Modem)
+-system/app/QtiTelephonyService/QtiTelephonyService.apk
+-system/app/embms/embms.apk
+system/etc/permissions/embms.xml
+system/etc/permissions/qcrilhook.xml
+system/etc/permissions/telephonyservice.xml
+-system/framework/embmslibrary.jar
+-system/framework/qcrilhook.jar
+-system/framework/qti-telephony-common.jar
+-system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+vendor/bin/hw/rild
+vendor/etc/init/rild.rc
+vendor/bin/netmgrd
+vendor/bin/qti
+vendor/bin/rmt_storage
+vendor/bin/tftp_server
+vendor/etc/data/dsi_config.xml
+vendor/etc/data/netmgr_config.xml
+vendor/lib/libconfigdb.so
+vendor/lib/libdsi_netctrl.so
+vendor/lib/liblqe.so
+vendor/lib/libmdmdetect.so
+vendor/lib/libnetmgr.so
+vendor/lib/libpdmapper.so
+vendor/lib/libpdnotifier.so
+vendor/lib/libqcmaputils.so
+vendor/lib/libqcrilFramework.so
+vendor/lib/libril-qc-hal-qmi.so
+vendor/lib/libril-qc-ltedirectdisc.so
+vendor/lib/libril-qc-qmi-1.so
+vendor/lib/libril-qc-radioconfig.so
+vendor/lib/libril-qcril-hook-oem.so
+vendor/lib/librilqmiservices.so
+vendor/lib/libsettings.so
+vendor/lib/libsystem_health_mon.so
+vendor/radio/qcril_database/qcril.db
+
+# Radio (IMS)
+-system/app/imssettings/imssettings.apk
+system/etc/permissions/com.qualcomm.qti.imscmservice.xml
+system/lib/lib-imscamera.so
+system/lib/lib-imsvideocodec.so
+system/lib/lib-imsvt.so
+system/lib/lib-imsvtextutils.so
+system/lib/lib-imsvtutils.so
+system/lib/libdiag_system.so
+system/lib/libimscamera_jni.so
+system/lib/libimsmedia_jni.so
+-system/app/ims/ims.apk
+vendor/bin/ims_rtp_daemon
+vendor/bin/imsdatadaemon
+vendor/bin/imsqmidaemon
+vendor/bin/imsrcsd
+vendor/lib/lib-imscmservice.so
+vendor/lib/lib-imsdpl.so
+vendor/lib/lib-imsqimf.so
+vendor/lib/lib-imsxml.so
+vendor/lib/lib-rtpcommon.so
+vendor/lib/lib-rtpcore.so
+vendor/lib/lib-rtpsl.so
+vendor/lib/lib-uceservice.so
+
+# Sensors
+system/lib/hw/sensors.msm8909.so
+vendor/etc/calmodule.cfg
+
+# SSR
+vendor/bin/ssr_diag
+vendor/bin/ssr_setup
+vendor/bin/subsystem_ramdump
+vendor/lib/libsubsystem_control.so
+
+# Thermal
+vendor/bin/thermal-engine
+vendor/etc/thermal-engine.conf
+vendor/lib/libthermalclient.so
+
+# Time
+-vendor/app/TimeService/TimeService.apk
+vendor/bin/time_daemon
+vendor/lib/libtime_genoff.so
+
+# UBWC
+vendor/lib/libUBWC.so
+vendor/lib/libstreamparser.so
+
+# Widevine
+vendor/bin/hw/android.hardware.drm@1.0-service.widevine
+vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc
+vendor/lib/libwvhidl.so
+vendor/lib/mediadrm/libwvdrmengine.so
+
+# Wi-Fi
+#vendor/bin/wcnss-service
+#vendor/bin/wcnss-filter
